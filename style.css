@@ -1,0 +1,18 @@
+.container {
+  display: inline-grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  background-color: #fff;
+  color: #444;
+  gap: 0px 0px;
+}
+
+.box {
+  margin: 0;
+  padding: 0;
+}
+
+.mouse {
+  background-color: red;
+  color: red;
+}
