@@ -1,15 +1,21 @@
 .container {
-  display: inline-grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
+  display: flex;
+  /* grid-template-columns: repeat(16,1fr); */
+  /* grid-gap: 0px; */
   background-color: #fff;
-  color: #444;
-  gap: 0px 0px;
+  flex-direction: row;
+  /* color: #444; */
+  /* grid-auto-rows: repeat(16,1fr); */
 }
 
-.box {
-  margin: 0;
-  padding: 0;
+.row {
+  flex: auto;
+  padding: 10px;
+}
+
+.box{
+  flex: auto;
+  padding: 10px;
 }
 
 .mouse {
